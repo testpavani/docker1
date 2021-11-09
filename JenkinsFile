@@ -1,7 +1,7 @@
 node {
   
     stage('build image'){
-        def customImage = docker.build("testpavani/docker")
+        def customImage = docker.build("testpavani/docker1")
         
     }
         
