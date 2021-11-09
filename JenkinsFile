@@ -1,0 +1,9 @@
+node {
+  
+    stage('build image'){
+        def customImage = docker.build("testpavani/docker")
+        
+    }
+        
+
+}
